@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    我是app
+    <!-- 设置路由出口 -->
+    <router-view></router-view>
   </div>
 </template>
 
@@ -10,6 +11,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
 </style>
